@@ -7,7 +7,7 @@ js throttle debounce
 ## html测试：
 ```
 <script>
-var flag;
+    var flag;
     function test() {
         flag = throttleDebounce(() = >say('ok'), flag, 2);
 
